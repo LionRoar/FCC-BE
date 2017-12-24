@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to the Microservice!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.css">
+  </head>
+  <body>
+    <div id="main">
+    <header>
+      <h1>
+        Timestamp Microservice
+      </h1>
+    </header>
+    <blockquote>
+      <ul>
+        <li>
+         I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
+        </li>
+        <li>
+         If it does, it returns both the Unix timestamp and the natural language form of that date.
+        </li>
+
+        <li>
+         If it does not contain a date or Unix timestamp, it returns null for those properties.
+        </li>
+      </ul>
+    </blockquote>
+
+    <p>
+       <h2>
+      EXAMPLE USAGE:
+    </h2>
+
+    <code>
+      https://abrupt-ptarmigan.glitch.me/December 2015
+    </code> <br>
+    <code>
+    https://abrupt-ptarmigan.glitch.me/1450137600
+    </code>
+       </p>
+<p>
+   <h2>
+      EXAMPLE Output:
+    </h2>
+  <code>
+  { "unix": 1450137600, "natural": "December 15, 2015" }
+  </code>
+    </p>
+    <footer>
+      <a href="https://twitter.com/RoardiLeone">
+        Twitter: @RoardiLeone
+      </a>
+    </footer>
+  </div>
+  </body>
+</html>
